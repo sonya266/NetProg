@@ -40,7 +40,7 @@ if (rc == -1) {
 }
 else {
     cout << "We are connect!\n";
-    char msg[50] = "41662";
+    char msg[50] = "cat cat cat";
     send(s, msg, sizeof(msg), 0);
     cout << "Message: " << '"' << msg << '"' << " was sent!\n";
     char returned_msg[50];
